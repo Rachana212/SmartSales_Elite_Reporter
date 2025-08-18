@@ -1,0 +1,84 @@
+# Python cache files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+
+# Virtual environments
+venv/
+.env/
+*.env
+
+# IDE & editor settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs & debug files
+*.log
+*.out
+*.bak
+
+# Byte-compiled / optimized / DLL files
+*.pyc
+*.pyo
+*.pyd
+
+# Compiled Python files
+*.so
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# SQLite databases
+*.sqlite3
+*.db
+
+# Flask instance & cache
+instance/
+*.pid
+
+# Credentials & secrets
+config/credentials.json
+token.json
+*.pem
+*.key
+*.crt
+*.der
+
+# Reports / generated files
+*.pdf
+*.xlsx
+*.csv
