@@ -7,10 +7,9 @@ load_dotenv()
 
 # List of multiple recipient emails
 RECIPIENT_EMAILS = [
-    "rachana@klesnc.edu.in",
+    "rachana@klesnc.edu.in",   
     "pavanathyadka@gmail.com",
-    "navyashreejspm@gmail.com",
-    "nariyangarachana@gmail.com",
+    "nariyangarachana@gmail.com"
 ]
 
 def send_email(report_text, chart_path, pdf_path):
@@ -52,6 +51,6 @@ def send_email(report_text, chart_path, pdf_path):
         with smtplib.SMTP_SSL("smtp.gmail.com", 465) as smtp:
             smtp.login(user, password)
             smtp.send_message(msg)
-        return True, f"Email sent successfully to {len(RECIPIENT_EMAILS)} recipients!"
+        return True, f"Email sent successfully!"
     except Exception as e:
         return False, f"Failed to send email: {e}"
